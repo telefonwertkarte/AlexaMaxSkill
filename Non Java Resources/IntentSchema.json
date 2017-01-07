@@ -1,0 +1,53 @@
+{
+  "intents": [
+    {
+      "intent": "getTemp",
+      "slots": [
+        {
+          "name": "room",
+          "type": "LIST_OF_ROOMS"
+        }
+      ]
+    },
+     {
+      "intent": "incTemp",
+      "slots": [
+        {
+          "name": "room",
+          "type": "LIST_OF_ROOMS"
+        }
+      ]
+    },
+     {
+      "intent": "decTemp",
+      "slots": [
+        {
+          "name": "room",
+          "type": "LIST_OF_ROOMS"
+        }
+      ]
+    },
+     {
+      "intent": "getModus",
+      "slots": [
+        {
+          "name": "room",
+          "type": "LIST_OF_ROOMS"
+        }
+      ]
+    },
+    {
+      "intent": "setTemp", 
+      "slots": [
+              {
+          "name": "room",
+          "type": "LIST_OF_ROOMS"
+        },
+        {
+        "name": "temperature",
+        "type": "NUMBER"
+        }
+      ]
+    }
+  ]
+}

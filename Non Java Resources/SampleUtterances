@@ -1,0 +1,42 @@
+getTemp sage mir die Temperatur im {room}
+getTemp sage mir die Temperatur im Raum {room}
+getTemp sage mir die Temperatur in der {room}
+getTemp wie ist die Temperatur im {room}
+getTemp wie ist die Temperatur im Raum {room}
+getTemp wie ist die Temperatur in der {room}
+getTemp was ist die Temperatur im {room}
+getTemp was ist die Temperatur im Raum {room}
+getTemp was ist die Temperatur in der {room}
+getTemp wie hoch ist die Temperatur im {room}
+getTemp wie hoch ist die Temperatur im Raum {room}
+getTemp wie hoch ist die Temperatur in der {room}
+
+getModus was ist der Modus im Raum {room}
+getModus wie ist der Modus im Raum {room}
+getModus wie ist der Modus im {room}
+getModus was ist der Modus im {room}
+
+incTemp Temperatur im Raum {room} erhöhen
+incTemp Temperatur im Raum {room} höher
+incTemp Mehr Temperatur im Raum {room}
+incTemp Mehr Temperatur im {room}
+incTemp Mehr Temperatur in der {room}
+incTemp Erhöhe Temperatur im Raum {room}
+incTemp Erhöhe Temperatur im {room}
+incTemp Erhöhe Temperatur in der {room}
+decTemp Temperatur im Raum {room} senken
+decTemp Temperatur im Raum {room} niedriger
+decTemp Temperatur im {room} senken
+decTemp Temperatur im {room} niedriger
+decTemp Temperatur im {room} senken
+decTemp Temperatur im {room} niedriger
+decTemp Weniger Temperatur im Raum {room}
+decTemp Weniger Temperatur im {room}
+decTemp Weniger Temperatur in der {room}
+decTemp Senke Temperatur im Raum {room}
+decTemp Senke Temperatur im {room}
+decTemp Senke Temperatur in der {room}
+
+setTemp setze die Temperatur im {room} auf {temperature} Grad
+setTemp setze die Temperatur in der {room} auf {temperature} Grad
+setTemp setze Raum {room} auf {temperature} Grad
