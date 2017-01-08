@@ -12,11 +12,12 @@ public class MaxSpeechletRequestStreamHandler extends SpeechletRequestStreamHand
 
     /** The Constant supportedApplicationIds. */
     private static final Set<String> supportedApplicationIds = new HashSet<>();
-
+    private final static String APPLICATION_ID = "appId";
     static {
+        String appId = System.getenv(APPLICATION_ID);
 
         // This is needed to be changed by user
-        supportedApplicationIds.add("amzn1.ask.skill.x.y.z");
+        supportedApplicationIds.add(appId);
     }
 
     /**
